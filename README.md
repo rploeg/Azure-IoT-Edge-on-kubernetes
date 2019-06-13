@@ -118,3 +118,9 @@ If you want to check the containers (if something goes wrong for example), simpl
 ## Recap
 
 In this tutorial you have seen how to install Azure IoT Edge on Kubernetes, it's quite simple and really powerfull in high end edge scenario's where you need failover if it's critical.
+
+And if you want to delete the Azure IoT Edge from your cluster, please enter the following command:
+
+```
+helm delete --purge k8s-edge1
+```
