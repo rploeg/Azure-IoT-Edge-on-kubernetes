@@ -48,6 +48,7 @@ To start the dashboard enter the following command and after that start your bro
 ```
 kubectl proxy
 ```
+If you want to bypass authentication, this is off course not recommended, you can follow [this](https://devblogs.microsoft.com/premier-developer/bypassing-authentication-for-the-local-kubernetes-cluster-dashboard/) guide. 
 
 ### Install Helm - package manager for Kubernetes
 
