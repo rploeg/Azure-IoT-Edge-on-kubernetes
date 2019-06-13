@@ -1,4 +1,4 @@
-# Install Azure IoT Edge on a kubernetes cluster on docker
+# Install Azure IoT Edge on a kubernetes cluster on Docker for Windows
 
 ## Goal
 
