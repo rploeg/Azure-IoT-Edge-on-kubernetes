@@ -109,3 +109,12 @@ Wait for some minutes and you should see the new modules running on your cluster
 
 ![ClusterRunning](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/RunningModules.png)
 
+### Check the logs of the container
+
+If you want to check the containers (if something goes wrong for example), simply start the kubernetes dashboard, navigate to your container and select logs. In the below image you see the simulated temperature sensor messages that are send to the IoT Hub
+
+![CheckMessage](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/CheckMessagesSend.png)
+
+## Recap
+
+In this tutorial you have seen how to install Azure IoT Edge on Kubernetes, it's quite simple and really powerfull in high end edge scenario's where you need failover if it's critical.
