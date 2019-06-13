@@ -96,6 +96,15 @@ Navigate to the Azure Portal and select the IoT hub and your IoT Edge device. Th
 
 
 ### Deploy a module
-You can now deploy for example the Temperature Runtime Module, so simulate temperature values from your cluster. 
+You can now deploy for example the Temperature Runtime Module, so simulate temperature values from your cluster. Go to the Azure Portal, click on new and search for the Simulated Temperature Sensor
 
+![TempSensor](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/NewSimulateTempSensor.png)
+
+Find your device and click on create and on the following screens hit the next, next and finish button:
+
+![Conf](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/CreateSimulateTempSensor.png)
+
+Wait for some minutes and you should see the new modules running on your cluster now:
+
+![ClusterRunning](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/RunningModules.png)
 
