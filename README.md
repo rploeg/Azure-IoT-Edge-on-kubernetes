@@ -84,7 +84,18 @@ Get your connection string from the Azure IoT Edge and copy the string in the be
 ```
 helm install \
 --name k8s-edge1 \
---set "deviceConnectionString=replace-with-device-connection-string" \
+--set "deviceConnectionString=PUTHEREYOURCONNECTIONSTRING" \
 edgek8s/edge-kubernetes
 ```
+
+### Check if installation is complete
+
+Navigate to the Azure Portal and select the IoT hub and your IoT Edge device. The Edge Agent should be running:
+
+![Running](https://github.com/rploeg/Azure-IoT-Edge-on-kubernetes/blob/master/runningcluster.png)
+
+
+### Deploy a module
+You can now deploy for example the Temperature Runtime Module, so simulate temperature values from your cluster. 
+
 
