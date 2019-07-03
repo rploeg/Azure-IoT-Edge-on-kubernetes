@@ -1,4 +1,4 @@
-# Install Azure IoT Edge on a kubernetes cluster on Docker for Windows
+# Install adn running Microsoft Azure IoT Edge on a kubernetes cluster on Docker for Windows
 
 ## Goal
 
